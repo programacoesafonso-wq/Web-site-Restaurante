@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ementa - Sabores da Casa</title>
+
+    <style>
+        :root{
+            --verde:#234b3a;
+            --verde-claro:#2d6a4f;
+            --dourado:#d4a24c;
+            --creme:#f8f5ef;
+            --branco:#ffffff;
+            --texto:#444;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: var(--creme);
+            margin: 0;
+            padding: 0;
+            color: var(--texto);
+        }
+
+        header {
+            background: var(--verde);
+            padding: 15px 20px;
+            color: var(--branco);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: var(--branco);
+            margin-left: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* HERO */
+        .hero-ementa {
+            padding: 60px 20px;
+            background: var(--verde-claro);
+            color: var(--branco);
+            text-align: center;
+        }
+
+        .tag {
+            background: var(--dourado);
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        /* EMENTA */
+        .ementa {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .ementa h2 {
+            color: var(--verde);
+            margin-top: 40px;
+            margin-bottom: 10px;
+            border-left: 6px solid var(--dourado);
+            padding-left: 10px;
+        }
+
+        .item {
+            background: var(--branco);
+            padding: 16px 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            border-left: 6px solid var(--verde-claro);
+        }
+
+        .item h3 {
+            margin: 0;
+            color: var(--verde);
+        }
+
+        .item p {
+            margin: 5px 0 0 0;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="logo">
+            🍽️ Sabores da Casa
+        </div>
+
+        <div class="menu">
+            <a href="index.html">Início</a>
+            <a href="ementa.html">Ementa</a>
+            <a href="contactos.html">Contactos</a>
+            <a href="sobre.html">Sobre Nós</a>
+        </div>
+    </nav>
+</header>
+
+<section class="hero-ementa">
+    <span class="tag">Sabores Tradicionais</span>
+    <h1>A Nossa Ementa</h1>
+    <p>Descubra pratos preparados com receitas tradicionais portuguesas.</p>
+</section>
+
+<section class="ementa">
+
+    <h2>Entradas</h2>
+
+    <div class="item">
+        <h3>Sopa do Dia</h3>
+        <p>Preparada diariamente com ingredientes frescos.</p>
+    </div>
+
+    <div class="item">
+        <h3>Pão e Azeitonas</h3>
+        <p>Acompanhamento tradicional.</p>
+    </div>
+
+    <h2>Pratos Principais</h2>
+
+    <div class="item">
+        <h3>Bacalhau à Brás</h3>
+        <p>Clássico português com batata palha e ovo.</p>
+    </div>
+
+    <div class="item">
+        <h3>Francesinha</h3>
+        <p>Molho artesanal e ingredientes frescos.</p>
+    </div>
+
+    <div class="item">
+        <h3>Arroz de Marisco</h3>
+        <p>Marisco fresco e sabor intenso.</p>
+    </div>
+
+    <h2>Sobremesas</h2>
+
+    <div class="item">
+        <h3>Mousse de Chocolate</h3>
+        <p>Feita com chocolate negro.</p>
+    </div>
+
+    <div class="item">
+        <h3>Arroz Doce</h3>
+        <p>Receita tradicional da casa.</p>
+    </div>
+
+</section>
+
+</body>
+</html>

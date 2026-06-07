@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós - Sabores da Casa</title>
+
+    <style>
+        :root{
+            --verde:#234b3a;
+            --verde-claro:#2d6a4f;
+            --dourado:#d4a24c;
+            --creme:#f8f5ef;
+            --branco:#ffffff;
+            --texto:#444;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: var(--creme);
+            margin: 0;
+            padding: 0;
+            color: var(--texto);
+        }
+
+        header {
+            background: var(--verde);
+            padding: 15px 20px;
+            color: var(--branco);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: var(--branco);
+            margin-left: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero-sobre {
+            padding: 60px 20px;
+            background: var(--verde-claro);
+            color: var(--branco);
+            text-align: center;
+        }
+
+        .tag {
+            background: var(--dourado);
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .sobre {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .secao {
+            margin-bottom: 40px;
+        }
+
+        .secao h2 {
+            color: var(--verde);
+            border-left: 6px solid var(--dourado);
+            padding-left: 10px;
+        }
+
+        .card {
+            background: var(--branco);
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            border-left: 6px solid var(--verde-claro);
+        }
+
+        .card h3 {
+            margin: 0;
+            color: var(--verde);
+        }
+
+        .card p {
+            margin-top: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="logo">
+            🍽️ Sabores da Casa
+        </div>
+
+        <div class="menu">
+            <a href="index.html">Início</a>
+            <a href="ementa.html">Ementa</a>
+            <a href="contactos.html">Contactos</a>
+            <a href="sobre.html">Sobre Nós</a>
+        </div>
+    </nav>
+</header>
+
+<section class="hero-sobre">
+    <span class="tag">A Nossa História</span>
+    <h1>Sobre Nós</h1>
+    <p>Tradição, família e o verdadeiro sabor português.</p>
+</section>
+
+<section class="sobre">
+
+    <div class="secao">
+        <h2>Quem Somos</h2>
+
+        <div class="card">
+            <h3>🍽️ Uma casa de sabores portugueses</h3>
+            <p>
+                O Sabores da Casa nasceu da paixão pela gastronomia portuguesa e pelo convívio à mesa.
+                Somos um restaurante familiar que honra receitas tradicionais passadas de geração em geração.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>❤️ Cozinha com alma</h3>
+            <p>
+                Cada prato é preparado com ingredientes frescos, dedicação e respeito pela nossa cultura.
+                Acreditamos que a comida deve aquecer o coração tanto quanto alimenta o corpo.
+            </p>
+        </div>
+    </div>
+
+    <div class="secao">
+        <h2>A Nossa Missão</h2>
+
+        <div class="card">
+            <h3>🌿 Ingredientes de qualidade</h3>
+            <p>
+                Trabalhamos com produtores locais para garantir frescura e autenticidade em cada refeição.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>⭐ Preservar a tradição</h3>
+            <p>
+                Queremos manter vivas as receitas que fazem parte da identidade portuguesa.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🏡 Um ambiente acolhedor</h3>
+            <p>
+                Criamos um espaço onde cada cliente se sente em casa — porque comer bem é também sentir-se bem.
+            </p>
+        </div>
+    </div>
+
+</section>
+
+</body>
+</html>

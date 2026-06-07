@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores da Casa</title>
+
+    <style>
+        :root{
+            --verde:#234b3a;
+            --verde-claro:#2d6a4f;
+            --dourado:#d4a24c;
+            --creme:#f8f5ef;
+            --branco:#ffffff;
+            --texto:#444;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: var(--creme);
+            margin: 0;
+            padding: 0;
+            color: var(--texto);
+        }
+
+        header {
+            background: var(--verde);
+            padding: 15px 20px;
+            color: var(--branco);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: var(--branco);
+            margin-left: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            padding: 60px 20px;
+            background: var(--verde-claro);
+            color: var(--branco);
+        }
+
+        .tag {
+            background: var(--dourado);
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 18px;
+            background: var(--dourado);
+            color: var(--branco);
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        /* Cards */
+        .sobre {
+            padding: 40px 20px;
+        }
+
+        .card {
+            background: var(--branco);
+            padding: 16px 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+
+        /* Barra colorida à esquerda */
+        .cor {
+            border-left: 6px solid;
+            padding-left: 12px;
+        }
+
+        .cor1 { border-color: #e76f51; }
+        .cor2 { border-color: #f4a261; }
+        .cor3 { border-color: #2a9d8f; }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="logo">
+            🍽️ Sabores da Casa
+        </div>
+
+        <div class="menu">
+            <a href="index.html">Início</a>
+            <a href="ementa.html">Ementa</a>
+            <a href="contactos.html">Contactos</a>
+            <a href="sobre.html">Sobre Nós</a>
+            
+        </div>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-texto">
+        <span class="tag">Cozinha Portuguesa Autêntica</span>
+
+        <h1>Tradição, cor e sabor num só lugar.</h1>
+
+        <p>Pratos tradicionais portugueses preparados com ingredientes frescos e muito carinho.</p>
+
+        <a href="ementa.html" class="btn">Ver Ementa</a>
+    </div>
+</section>
+
+<section class="sobre">
+
+    <div class="card cor1">
+        <h3>🌿 Ingredientes Frescos</h3>
+        <p>Selecionamos os melhores ingredientes todos os dias.</p>
+    </div>
+
+    <div class="card cor2">
+        <h3>❤️ Feito com Carinho</h3>
+        <p>Cada prato é preparado com dedicação.</p>
+    </div>
+
+    <div class="card cor3">
+        <h3>⭐ Tradição Portuguesa</h3>
+        <p>Receitas autênticas que celebram a nossa cultura.</p>
+    </div>
+
+</section>
+
+</body>
+</html>
